@@ -1,0 +1,20 @@
+.contendor{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contenedor__video, .contenedor__iframe{
+    width: 40rem;
+    height: 22rem;
+    overflow: hidden;
+    border: 10px solid blue;
+}
+
+.contenedor__video .video, .contenedor__iframe .iframe{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /*ajusta el tamaño del contenido para cubir todo el tamaño del div*/
+}
+
+
